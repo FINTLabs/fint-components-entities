@@ -1,9 +1,9 @@
-package no.fint.components.components_with_entities.service;
+package no.fint.components.componententities.service;
 
 import lombok.extern.slf4j.Slf4j;
-import no.fint.components.components_with_entities.ComponentWithEntities;
-import no.fint.components.components_with_entities.Entity;
-import no.fint.components.components_with_entities.EntityResponse;
+import no.fint.components.componententities.ComponentWithEntities;
+import no.fint.components.componententities.Entity;
+import no.fint.components.componententities.EntityResponse;
 import no.fint.portal.model.component.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

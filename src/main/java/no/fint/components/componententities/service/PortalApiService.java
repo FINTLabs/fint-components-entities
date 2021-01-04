@@ -1,8 +1,8 @@
-package no.fint.components.components_with_entities.service;
+package no.fint.components.componententities.service;
 
 import lombok.Synchronized;
-import no.fint.components.components_with_entities.EntityResponse;
-import no.fint.components.components_with_entities.exception.InvalidResourceException;
+import no.fint.components.componententities.EntityResponse;
+import no.fint.components.componententities.exception.InvalidResourceException;
 import no.fint.portal.model.component.Component;
 import no.fint.portal.model.component.ComponentService;
 import org.springframework.beans.factory.annotation.Autowired;
