@@ -14,6 +14,7 @@ buildscript {
 plugins {
     id 'com.github.ben-manes.versions' version '0.17.0'
     id 'com.github.ksoichiro.build.info' version '0.2.0'
+    id 'com.jfrog.bintray' version '1.8.5'
 }
 
 apply plugin: 'java'
@@ -60,4 +61,7 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     runtime('org.springframework.ldap:spring-ldap-test')
     runtime("com.unboundid:unboundid-ldapsdk:3.1.1")
+}
+if (project.hasProperty('bintrayUser') && project.hasProperty('bintrayKey')) {
+    apply from: 'https://raw.githubusercontent.com/FINTlibs/fint-buildscripts/v1.8.0/bintray.gradle'
 }
