@@ -1,4 +1,4 @@
-package no.fint.components.componententities;
+package no.fint.components.entities;
 
 import lombok.Data;
 
